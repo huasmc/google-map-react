@@ -39,7 +39,7 @@ const K_GOOGLE_TILE_SIZE = 256;
 // real minZoom calculated here _getMinZoom
 const K_IDLE_TIMEOUT = 100;
 const K_IDLE_CLICK_TIMEOUT = 300;
-const DEFAULT_MIN_ZOOM = 3;
+const DEFAULT_MIN_ZOOM = 0;
 // Starting with version 3.32, the maps API calls `draw()` each frame during
 // a zoom animation.
 const DRAW_CALLED_DURING_ANIMATION_VERSION = 32;
